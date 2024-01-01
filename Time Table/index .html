@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- This tittle show top side -->
+    <title>Time Table</title>
+
+    <!-- This link a style file for css to style this table -->
+    <link rel="stylesheet" href="style .css">
+
+</head>
+<body>
+
+    <!-- Top Headings style with external css-->
+    <h1>Saylani Mass IT Training</h1>
+    <h3>Classes Schedule (Lab - 1)</h3>
+
+    <!-- Start the table -->
+    <table cellpadding="20" cellspacing="2" border="2px" solid > <!--Set the table borders and side-->
+
+        <!-- Its show my information -->
+        <tr class="mydata">
+            <th class="ih">Name</th>
+            <th class="ih">Roll num</th>
+            <th class="ih">Assignment no</th>
+            <th class="ih">Date</th>
+        </tr>
+        <tr class="mydata">
+            <td class="id">Syed Mubashir Ahmed</td>
+            <td class="id">WMA-223408</td>
+            <td class="id">3</td>
+            <td class="id">27-Dec-2023</td>
+        </tr>
+    </table>
+
+    <!-- Brake my info and time table -->
+    <br><hr><br>
+
+    <!-- Start time table -->
+    <table border="2px solid blue">
+        <THead>
+            <tr class="hd">
+                <th>Days & Time</th>
+                <th>8am - 9am</th>
+                <th>9am - 10am</th>
+                <th>10am - 11am</th>
+                <th>11am - 12pm</th>
+                <th>12pm - 1pm</th>
+                <th>1pm - 2pm</th>
+                <th>2pm - 3pm</th>
+                <th>3pm - 4pm</th>
+                <th>4pm - 5pm</th>
+                <th>5pm</th>
+                <th>6pm</th>
+                <th>6pm - 7pm</th>
+                <th>8pm - 9pm</th>
+                <th>9pm - 10pm</th>
+                <th>10pm - 11pm</th>
+            </tr>
+        </THead>
+
+        <tbody>
+
+            <!-- 1st row monday  -->
+            <tr>
+                <td id="week">Monday</td>
+                <td colspan="3" class="web">9am to 11am <br>Web & App Development</td>
+                <td colspan="2" class="web">11am to 1pm <br>Web & App Development</td>
+                <td rowspan="9" style="writing-mode: vertical-lr; text-align: center;" class="namaz">Namaz </td> <!--check after complete-->
+                <td colspan="2" class="vd">2pm to 4pm <br>Video Editing</td>
+                <td colspan="3" class="gd">4pm to 6pm <br> Graphic Designing</td>
+                <td colspan="2" class="ai">6pm to 7pm <br>AI & Chatbot </td>
+                <td colspan="2" class="web">9pm to 11pm <br> Web & App Development</td>
+            </tr>
+
+            <!-- 2nd row tuesday  -->
+            <tr>
+                <td  id="week">Tuesday</td>
+                <td colspan="3" class="gd">9am to 11am <br>Graphic Designing</td>
+                <td colspan="2" class="gd">11am to 1pm <br>Graphic Designing</td>
+                <td colspan="2" class="co">2pm to 4pm <br>CCO</td>
+                <td colspan="3" class="gd">4pm to 6pm <br> Graphic Designing</td>
+                <td colspan="2" class="web">6pm to 7pm <br>Web & App Designing </td>
+                <td colspan="2" class="null"></td>
+            </tr>
+
+            <!-- 3rd row wednesday -->
+            <tr >
+                <td  id="week">Wednesday</td>
+                <td colspan="3" class="web">9am to 11am <br>Web & App Development</td>
+                <td colspan="2" class="web">11am to 1pm <br>Web & App Development</td>
+                <td colspan="2" class="null"></td>
+                <td colspan="3" class="gd">4pm to 6pm <br> Graphic Designing</td>
+                <td colspan="2" class="ai">6pm to 7pm <br>AI & Chatbot </td>
+                <td colspan="2" class="web">9pm to 11pm <br> Web & App Development</td>
+            </tr>
+
+            <!-- 4th row thursday -->
+            <tr>
+                <td  id="week">Thursday</td>
+                <td colspan="5" class="null"></td>
+                <td colspan="2" class="gd">2pm to 4pm <br>Video Editing</td>
+                <td colspan="3" class="gd">4pm to 6pm <br> Graphic Designing</td>
+                <td colspan="2" class="ai">6pm to 7pm <br>AI & Chatbot </td>
+                <td colspan="2" class="web">9pm to 11pm <br> Web & App Development</td>
+            </tr>
+
+            <!-- 5th row friday -->
+            <tr>
+                <td  id="week">Friday</td>
+                <td colspan="3" class="web">9am to 11am <br>Web & App Development</td>
+                <td colspan="2" class="web">11am to 1pm <br>Web & App Development</td>
+                <td colspan="2" class="co">2pm to 4pm <br>CCO</td>
+                <td colspan="3" class="gd">4pm to 6pm <br> Graphic Designing</td>
+                <td colspan="2" class="ai">6pm to 7pm <br>AI & Chatbot </td>
+                <td colspan="2" class="web">9pm to 11pm <br> Web & App Development</td>
+            </tr>
+
+            <!-- 6th row saturday -->
+            <tr>
+                <td  id="week">Saturday</td>
+                <td colspan="3" class="gd">9am to 11am <br>Graphic Designing</td>
+                <td colspan="2" class="gd">11am to 1pm <br>Graphic Designing</td>
+                <td colspan="2" class="null"></td>
+                <td colspan="3" class="gd">4pm to 6pm <br> Graphic Designing</td>
+                <td colspan="2" class="web">6pm to 7pm <br>Web & App Designing </td>
+                <td colspan="2" class="null"></td>
+            </tr>
+
+            <!-- 7th row sunday -->
+            <tr>
+                <td  id="week">Sunday</td>
+                <td class="null"></td>
+                <td colspan="3" class="web">9am to 12pm <br>Web & App Development</td>
+                <td class="null"></td>
+                <td colspan="3" class="vd">2pm to 5pm <br>Video Editing</td>
+                <td colspan="2" class="null"></td>
+                <td colspan="3" class="ai"> 6pm to 10pm <br>AI & Chatbot</td>
+                <td class="null"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
